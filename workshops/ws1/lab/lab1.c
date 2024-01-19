@@ -29,7 +29,7 @@ void line(void) {
 }
 
 void info(void) {
-	printf("Name: \n\tLuca Novello\nEmail: \n\tgnovello@myseneca.ca\n");
+	printf("Name:\n\tLuca Novello\nEmail:\n\tgnovello@myseneca.ca\n");
 }
 
 
