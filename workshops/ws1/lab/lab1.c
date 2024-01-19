@@ -3,7 +3,7 @@
 // Luca Novello
 // gnovello@myseneca.ca
 // 038-515-003
-// 01-16-2024
+// 01-18-2024
 // I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
 
 void title(void);
@@ -15,6 +15,8 @@ int main(void) {
 	line();
 	info();
 	line();
+
+	return 0;
 }
 
 void title(void) {
@@ -29,3 +31,5 @@ void line(void) {
 void info(void) {
 	printf("Name: \n\tLuca Novello\nEmail: \n\tgnovello@myseneca.ca\n");
 }
+
+
