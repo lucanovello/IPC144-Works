@@ -4,7 +4,7 @@
 // gnovello@myseneca.ca
 // 038-515-003
 // 01-16-2024
-//I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+// I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
 
 void title(void);
 void line(void);
@@ -24,7 +24,7 @@ void title(void) {
 }
 
 void line(void) {
-	for (size_t i = 0; i < 60; i++)
+	for (int i = 0; i < 60; i++)
 	{
 	printf("-");
 	}
