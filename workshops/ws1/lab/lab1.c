@@ -11,7 +11,6 @@ void line(void);
 void info(void);
 
 int main(void) {
-
 	title();
 	line();
 	info();
@@ -19,15 +18,11 @@ int main(void) {
 }
 
 void title(void) {
-
 	printf("IPC144 NBB\tWorkshop 1\tPart 1\n");
 }
 
 void line(void) {
-	for (int i = 0; i < 60; i++)
-	{
-	printf("-");
-	}
+	printf("------------------------------------------------------------");
 	printf("\n");
 }
 
