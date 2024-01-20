@@ -33,7 +33,7 @@ void line(void) {
 }
 
 void info(void) {
-	printf("Name: \n\tLuca Novello\nEmail: \n\tgnovello@myseneca.ca\n");
+	printf("Name:\n\tLuca Novello\nEmail:\n\tgnovello@myseneca.ca\n");
 }
 
 void calcGrades(void) {
@@ -43,11 +43,11 @@ void calcGrades(void) {
 	int avg;
 
 	printf("Enter the marks for the following subjects,\n");
-	printf("IPC144:\t");
+	printf("IPC144: ");
 	scanf("%d", &n1);
-	printf("ULI101:\t");
+	printf("ULI101: ");
 	scanf("%d", &n2);
-	printf("EAC150:\t");
+	printf("EAC150: ");
 	scanf("%d", &n3);
 
 	avg = (n1 + n2 + n3) / 3;
