@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
 #include "utils.h"
 #include "report.h"
 
@@ -16,6 +16,7 @@ void readStudentInfo(int stno[], float mark[], int num) {
 	printf("Mark\n> ");
 	mark[i] = getFlt();
 	printf("---------------------------------");
+	nl();
 	}
 }
 
@@ -34,5 +35,8 @@ void printReport(const int stno[], const float mark[], int num) {
 		totalMarks += mark[i];
 	}
 	avg = totalMarks / num;
+	printf("---------------+------");
+	nl();
 	printf("       Average:   %.1f", avg);
+	nl();
 }
